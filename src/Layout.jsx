@@ -11,11 +11,12 @@ function Layout ({ children }) {
         <div> 
             {/*headerBar*/}
             <div className="navBar">
-            <img
-          className="aimLogo"
-          src="https://aimforwellbeing.org/cdn/shop/files/aim-logo_2x_a4312550-3b4d-4928-a92c-ad712cf3c07c.png?v=1736934566"
-          alt="Logo"
-        />
+              <Link to="/home">
+                  <img
+                className="aimLogo"
+                src="https://aimforwellbeing.org/cdn/shop/files/aim-logo_2x_a4312550-3b4d-4928-a92c-ad712cf3c07c.png?v=1736934566"
+                alt="Logo"
+          /></Link>
         <form action="/search" method="get">
           <div className="searchDiv">
             <input

@@ -6,6 +6,7 @@ import HomePage from "./HomePage";
 import './App.css';
 import Layout from './Layout';
 import AboutPage from "./AboutPage"
+import ImmuneHealth from "./ImmuneHealth";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/shop" element={<ProductShopPage />} />
           <Route path="/create-account" element={<CreateAccountPage/>} />
           <Route path="/about-us" element={<AboutPage/>} />
+          <Route path="/immune-health" element={<ImmuneHealth/>} />
         </Routes>
       </Layout>
     </Router>

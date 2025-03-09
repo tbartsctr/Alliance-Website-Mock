@@ -15,7 +15,9 @@ const BackgroundSection = () => {
       <h1>Empowering Patients & Transforming Lives</h1>
       <h2>Integrative and Functional Medicine. Acupuncture. Chiropractic Care. Advanced Allergy Therapeutics. Nutrition Counseling. Medical Message. Rolfing. Energy Healing.</h2>
       <button id="backgroundBtn1">Learn More</button>
-        <button id="backgroundBtn2">Login to Patient Portal</button>
+        <Link to="/create-account" className="link-wrapper">
+            <button id="backgroundBtn2">Login to Patient Portal</button>
+        </Link>
     </div>
   );
 };
@@ -39,7 +41,9 @@ const FocusAreaCards = () => {
   return (
     <div className="focusAreaCardsDiv">
       <div className="cardImgs">
-        <img id="cardImg1" src="https://aimforwellbeing.org/cdn/shop/files/Immune_Health_aee8545e-59ad-4663-92a6-1101ff79b08f.png?v=1736948606&width=576" alt="Immune Health" />
+        <Link to="/immune-health">
+            <img id="cardImg1" src="https://aimforwellbeing.org/cdn/shop/files/Immune_Health_aee8545e-59ad-4663-92a6-1101ff79b08f.png?v=1736948606&width=576" alt="Immune Health" />
+        </Link>
         <img id="cardImg2" src="https://aimforwellbeing.org/cdn/shop/files/hormonal-metabolic.png?v=1736948606&width=576" alt="Hormonal & Metabolic" />
         <img id="cardImg3" src="https://aimforwellbeing.org/cdn/shop/files/Allergy_Therapeutics.png?v=1736948606&width=576" alt="Allergy Therapeutics" />
         <img id="cardImg4" src="https://aimforwellbeing.org/cdn/shop/files/Transformational_Medicine.png?v=1736948606&width=576" alt="Transformational Medicine" />
@@ -63,7 +67,9 @@ const ProductSection = () => {
           <h8>Shop Online or in Person</h8>
           <h1 id="ourProductsTxt">Our Products</h1>
           <h5 id="productsBodyTxt">We've created a curated line of products, hand selected by our experts to provide the most effective health benefits and optimal nutrition balance.</h5>
-          <button id="browseProductsBtn">Browse Products</button>
+          <Link to="/shop">
+              <button id="browseProductsBtn">Browse Products</button>
+          </Link>
         </div>
       </div>
       <img id="productImg" src={productImage} alt="Product" />
