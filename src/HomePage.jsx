@@ -44,7 +44,9 @@ const FocusAreaCards = () => {
         <Link to="/immune-health">
             <img id="cardImg1" src="https://aimforwellbeing.org/cdn/shop/files/Immune_Health_aee8545e-59ad-4663-92a6-1101ff79b08f.png?v=1736948606&width=576" alt="Immune Health" />
         </Link>
-        <img id="cardImg2" src="https://aimforwellbeing.org/cdn/shop/files/hormonal-metabolic.png?v=1736948606&width=576" alt="Hormonal & Metabolic" />
+            <Link to="/hormone-health">
+              <img id="cardImg2" src="https://aimforwellbeing.org/cdn/shop/files/hormonal-metabolic.png?v=1736948606&width=576" alt="Hormonal & Metabolic" />
+            </Link>
         <img id="cardImg3" src="https://aimforwellbeing.org/cdn/shop/files/Allergy_Therapeutics.png?v=1736948606&width=576" alt="Allergy Therapeutics" />
         <img id="cardImg4" src="https://aimforwellbeing.org/cdn/shop/files/Transformational_Medicine.png?v=1736948606&width=576" alt="Transformational Medicine" />
       </div>

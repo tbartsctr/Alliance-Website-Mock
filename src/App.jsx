@@ -7,6 +7,7 @@ import './App.css';
 import Layout from './Layout';
 import AboutPage from "./AboutPage"
 import ImmuneHealth from "./ImmuneHealth";
+import HormoneBalancePage from './assets/HormonalBalancePage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/create-account" element={<CreateAccountPage/>} />
           <Route path="/about-us" element={<AboutPage/>} />
           <Route path="/immune-health" element={<ImmuneHealth/>} />
+          <Route path="/hormone-health" element={<HormoneBalancePage/>}/>
         </Routes>
       </Layout>
     </Router>
